@@ -55,4 +55,4 @@ jobs:
           pip install flask
       - name: Play
         run: |
-          python main.py
+          ls
