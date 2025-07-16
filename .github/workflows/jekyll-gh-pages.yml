@@ -54,6 +54,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install flask
           sudo apt install git
-          git https://github.com/SiracCGA/pypy.git
+          git clone https://github.com/SiracCGA/pypy.git
           cd pypy
           flask --app main.py run
